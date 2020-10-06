@@ -1,11 +1,14 @@
-# BitmapFontCutter
-Godot 3 resource extension for oldschool bitmap fonts.
+# BitmapFontCutterPlus
+Fork of [nobuyukinyuu/BitmapFontCutter](https://github.com/nobuyukinyuu/BitmapFontCutter) with some improvements.
 
-![](https://i.imgur.com/ug6opo0.png) 
-![](https://i.imgur.com/gj2T3LC.png)
+## Improvements
+* Added an option to make non-monospaced fonts (clips characters to their bounding boxes)
+* Added an option for font spacing
+* Fixed incorrect incorrect number of columns
 
+## Ussage
 
-TODO:
-* Initial texture offset
-* Specify custom charset
-* Better init / signal capture
+* Clone the plugin repo or download it from the AssetLib
+* Enable the plugin (Project > Project Settings > Plugins)
+* Create a new `CutBitmapFont` resource (Right click in filesystem > New Resource > CutBitmapFont)
+* Select the resource in filesystem and edit the properties in the inspector
