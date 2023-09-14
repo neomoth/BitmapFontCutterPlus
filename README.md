@@ -16,3 +16,6 @@ Fork of [nobuyukinyuu/BitmapFontCutter](https://github.com/nobuyukinyuu/BitmapFo
 * Enable the plugin (Project > Project Settings > Plugins)
 * Create a new `CutBitmapFont` resource (Right click in filesystem > New Resource > CutBitmapFont)
 * Select the resource in filesystem and edit the properties in the inspector
+
+## Test Fonts
+Included are UNDERTALE fonts for testing purposes. UNDERTALE and included fonts by TobyFox
