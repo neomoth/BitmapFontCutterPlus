@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dt1y6434e66nd"
-path="res://.godot/imported/icon.png-7a944b865335bcc37a4211ee6e1daf36.ctex"
+uid="uid://c6joyd7pbwi21"
+path="res://.godot/imported/screen2.png-3ca9d1d767563cbc0ec499e43e9b5b4f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/BitmapFontCutterPlus/icon.png"
-dest_files=["res://.godot/imported/icon.png-7a944b865335bcc37a4211ee6e1daf36.ctex"]
+source_file="res://addons/BitmapFontCutterPlus/screenshots/screen2.png"
+dest_files=["res://.godot/imported/screen2.png-3ca9d1d767563cbc0ec499e43e9b5b4f.ctex"]
 
 [params]
 

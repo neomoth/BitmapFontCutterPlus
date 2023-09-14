@@ -1,12 +1,18 @@
-tool
-extends BitmapFont
+@tool
+extends FontFile
 
+var height = 0
 var index = 0
-export(Vector2) var GlyphSize = Vector2(8,8) setget changeGlyphSize
-export(Texture) var TextureToCut = null setget changeTexture
-export(int,255) var StartChar = 32 setget changeStartChar
-export(float) var Spacing = 1 setget changeSpacing
-export(bool) var Monospaced = true setget changeMonospaced
+@export var GlyphSize = Vector2(8,8):
+	set(value):changeGlyphSize(value)
+@export var TextureToCut = Texture2D:
+	set(value):changeTexture(value)
+@export var StartChar = 32:
+	set(value):changeStartChar(value)
+@export var Spacing = 1:
+	set(value):changeSpacing(value)
+@export var Monospaced = true:
+	set(value):changeMonospaced(value)
 
 func changeStartChar(value):
 	StartChar = value
@@ -44,7 +50,7 @@ func update():
 			var font = self
 			var i = 0  #Iterator for char index
 
-			clear()
+			#_clear()
 
 			#Begin cutting..... so edgy
 			font.add_texture(TextureToCut)
@@ -85,5 +91,5 @@ func update():
 					font.add_char(StartChar + i, 0, region, Vector2.ZERO, character_width + Spacing)
 						
 					i+=1
-			update_changes()
+			#_apply_changes()
 	pass #if texture is null
