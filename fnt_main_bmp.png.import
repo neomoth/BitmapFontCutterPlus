@@ -1,0 +1,18 @@
+[remap]
+
+importer="anidemdex.bitmapfont.importer"
+type="FontFile"
+uid="uid://dne7dufl3n77t"
+path="res://.godot/imported/fnt_main_bmp.png-844e4397516bb3fd5b04eb67f5989ac5.fontdata"
+
+[deps]
+
+source_file="res://fnt_main_bmp.png"
+dest_files=["res://.godot/imported/fnt_main_bmp.png-844e4397516bb3fd5b04eb67f5989ac5.fontdata"]
+
+[params]
+
+gliph_size=Vector2i(16, 16)
+first_character=32
+spacing=1
+monospaced=false
